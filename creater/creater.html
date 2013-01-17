@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pix Letter Creater</title>
+    <link rel="stylesheet" href="creater.css" type="text/css" />
+    <script src="gnim.js" type="text/javascript"></script>
+    <script src="creater.js" type="text/javascript"></script>
+    <style type="text/css">
+    	#letterpix,#letterpix2{padding:10px;}
+		*{margin:0;padding:0;}
+    </style>
+</head>
+<body>
+	<div>Enter Your ASCII:</div>
+	<div>
+	    <textarea id="ascii" cols="30" rows="5">This is a test for Letter Creater!...Count 1 2 3...!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~</textarea>
+	</div>
+	<div><button onclick="setLetterHtml();">Create PixLetter</button></div>
+	<div id="letterpix">
+    	<span class="pl pls pls-a"></span>
+    	<span class="pl pls pls-b"></span>
+    	<span class="pl pls pls-c"></span>
+    	<span class="pl pls pls-d"></span>
+    	<span class="pl pls pls-e"></span>
+    	<span class="pl pls pls-f"></span>
+    	<span class="pl pls pls-g"></span>
+    	<span class="pl pls pls-h"></span>
+    	<span class="pl pls pls-i"></span>
+    	<span class="pl pls pls-j"></span>
+    	<span class="pl pls pls-k"></span>
+    	<span class="pl pls pls-l"></span>
+    	<span class="pl pls pls-m"></span>
+    	<span class="pl pls pls-n"></span>
+    	<span class="pl pls pls-o"></span>
+    	<span class="pl pls pls-p"></span>
+    	<span class="pl pls pls-q"></span>
+    	<span class="pl pls pls-r"></span>
+    	<span class="pl pls pls-s"></span>
+    	<span class="pl pls pls-t"></span>
+    	<span class="pl pls pls-u"></span>
+    	<span class="pl pls pls-v"></span>
+    	<span class="pl pls pls-w"></span>
+    	<span class="pl pls pls-x"></span>
+    	<span class="pl pls pls-y"></span>
+    	<span class="pl pls pls-z"></span>
+        <br/>
+    	<span class="pl pls pls-0"></span>
+    	<span class="pl pls pls-1"></span>
+    	<span class="pl pls pls-2"></span>
+    	<span class="pl pls pls-3"></span>
+    	<span class="pl pls pls-4"></span>
+    	<span class="pl pls pls-5"></span>
+    	<span class="pl pls pls-6"></span>
+    	<span class="pl pls pls-7"></span>
+    	<span class="pl pls pls-8"></span>
+    	<span class="pl pls pls-9"></span>
+        <br/>
+    	<span class="pl plb plb-a"></span>
+    	<span class="pl plb plb-b"></span>
+    	<span class="pl plb plb-c"></span>
+    	<span class="pl plb plb-d"></span>
+    	<span class="pl plb plb-e"></span>
+    	<span class="pl plb plb-f"></span>
+    	<span class="pl plb plb-g"></span>
+    	<span class="pl plb plb-h"></span>
+    	<span class="pl plb plb-i"></span>
+    	<span class="pl plb plb-j"></span>
+    	<span class="pl plb plb-k"></span>
+    	<span class="pl plb plb-l"></span>
+    	<span class="pl plb plb-m"></span>
+    	<span class="pl plb plb-n"></span>
+    	<span class="pl plb plb-o"></span>
+    	<span class="pl plb plb-p"></span>
+    	<span class="pl plb plb-q"></span>
+    	<span class="pl plb plb-r"></span>
+    	<span class="pl plb plb-s"></span>
+    	<span class="pl plb plb-t"></span>
+    	<span class="pl plb plb-u"></span>
+    	<span class="pl plb plb-v"></span>
+    	<span class="pl plb plb-w"></span>
+    	<span class="pl plb plb-x"></span>
+    	<span class="pl plb plb-y"></span>
+    	<span class="pl plb plb-z"></span>
+        <br/>
+    	<span class="pl plb plb-0"></span>
+    	<span class="pl plb plb-1"></span>
+    	<span class="pl plb plb-2"></span>
+    	<span class="pl plb plb-3"></span>
+    	<span class="pl plb plb-4"></span>
+    	<span class="pl plb plb-5"></span>
+    	<span class="pl plb plb-6"></span>
+    	<span class="pl plb plb-7"></span>
+    	<span class="pl plb plb-8"></span>
+    	<span class="pl plb plb-9"></span>
+    </div>
+	<div id="letterpix2"></div>
+    <script>
+		function setLetterHtml(){
+	        $('#letterpix').html(createBigLetterHtml($('#ascii')[0].value));
+			$('#letterpix2').html(createSmallLetterHtml($('#ascii')[0].value));
+		}
+    </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* CSS For Pixel Letter */
+.pl{background:url(creater.gif) no-repeat;display:inline-block;}
+
+/* letter small */
+.pls{width:5px;height:5px;background-position:0 -10px;margin:1px 1px 1px 0;padding:0;}
+.pls-0{background-position:0 -5px;}
+.pls-1{background-position:-5px -5px;}
+.pls-2{background-position:-10px -5px;}
+.pls-3{background-position:-15px -5px;}
+.pls-4{background-position:-20px -5px;}
+.pls-5{background-position:-25px -5px;}
+.pls-6{background-position:-30px -5px;}
+.pls-7{background-position:-35px -5px;}
+.pls-8{background-position:-40px -5px;}
+.pls-9{background-position:-45px -5px;}
+
+.pls-a{background-position:0 0;}
+.pls-b{background-position:-5px 0;}
+.pls-c{background-position:-10px 0;}
+.pls-d{background-position:-15px 0;}
+.pls-e{background-position:-20px 0;}
+.pls-f{background-position:-25px 0;}
+.pls-g{background-position:-30px 0;}
+.pls-h{background-position:-35px 0;}
+.pls-i{background-position:-40px 0;}
+.pls-j{background-position:-45px 0;}
+.pls-k{background-position:-50px 0;}
+.pls-l{background-position:-55px 0;}
+.pls-m{background-position:-60px 0;}
+.pls-n{background-position:-65px 0;}
+.pls-o{background-position:-70px 0;}
+.pls-p{background-position:-75px 0;}
+.pls-q{background-position:-80px 0;}
+.pls-r{background-position:-85px 0;}
+.pls-s{background-position:-90px 0;}
+.pls-t{background-position:-95px 0;}
+.pls-u{background-position:-100px 0;}
+.pls-v{background-position:-105px 0;}
+.pls-w{background-position:-110px 0;}
+.pls-x{background-position:-115px 0;}
+.pls-y{background-position:-120px 0;}
+.pls-z{background-position:-125px 0;}
+
+/* letter big */
+.plb{width:10px;height:10px;background-position:0 -50px;margin:2px 2px 2px 0;padding:0;}
+.plb-0{background-position:0 -40px;}
+.plb-1{background-position:-10px -40px;}
+.plb-2{background-position:-20px -40px;}
+.plb-3{background-position:-30px -40px;}
+.plb-4{background-position:-40px -40px;}
+.plb-5{background-position:-50px -40px;}
+.plb-6{background-position:-60px -40px;}
+.plb-7{background-position:-70px -40px;}
+.plb-8{background-position:-80px -40px;}
+.plb-9{background-position:-90px -40px;}
+
+.plb-a{background-position:0 -30px;}
+.plb-b{background-position:-10px -30px;}
+.plb-c{background-position:-20px -30px;}
+.plb-d{background-position:-30px -30px;}
+.plb-e{background-position:-40px -30px;}
+.plb-f{background-position:-50px -30px;}
+.plb-g{background-position:-60px -30px;}
+.plb-h{background-position:-70px -30px;}
+.plb-i{background-position:-80px -30px;}
+.plb-j{background-position:-90px -30px;}
+.plb-k{background-position:-100px -30px;}
+.plb-l{background-position:-110px -30px;}
+.plb-m{background-position:-120px -30px;}
+.plb-n{background-position:-130px -30px;}
+.plb-o{background-position:-140px -30px;}
+.plb-p{background-position:-150px -30px;}
+.plb-q{background-position:-160px -30px;}
+.plb-r{background-position:-170px -30px;}
+.plb-s{background-position:-180px -30px;}
+.plb-t{background-position:-190px -30px;}
+.plb-u{background-position:-200px -30px;}
+.plb-v{background-position:-210px -30px;}
+.plb-w{background-position:-220px -30px;}
+.plb-x{background-position:-230px -30px;}
+.plb-y{background-position:-240px -30px;}
+.plb-z{background-position:-250px -30px;}
